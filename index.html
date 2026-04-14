@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CSE Team Meeting Notes Example</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Example meeting minutes for a CSE team."
+    />
+    <link rel="icon" href="media/andro.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>CSE Team Meeting Notes Example</h1>
+        <hr />
+      </header>
+
+      <nav></nav>
+
+      <h2>Weekly Team Notes</h2>
+      <h3>April 14, 2026</h3>
+
+      <h4>Attendance:</h4>
+      <ul>
+        <li>Alice, <i>meeting notetaker</i></li>
+        <li>Bob</li>
+        <li>Carol</li>
+        <li>David</li>
+      </ul>
+
+      <h4>Meeting Agenda:</h4>
+      <p>Discuss team updates and plan next tasks.</p>
+    </main>
+
+    <section>
+      <h4>Meeting Minutes:</h4>
+      <div>
+        <ol>
+          <li>Team members shared updates.</li>
+          <li><b>Alice</b> reviewed the current progress.</li>
+          <li><b>Bob</b> suggested a few improvements for the project.</li>
+          <li><b>Carol</b> wrote down action items for the next meeting.</li>
+          <li>The team agreed to meet again in <strong>one week</strong>.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section>
+      <h4>Technical Notes:</h4>
+      <ul>
+        <li>Note 1</li>
+        <li>Note 2</li>
+        <li>Note 3</li>
+        <li>
+          <a href="https://github.com/Andro-Source/Lab2_Starter" target="_blank"
+            >Reference</a
+          >
+          to my github repo for this lab.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <span></span>
+      <h4>Form to submit additional ideas between meetings.</h4>
+
+      <form method="post">
+        <label>
+          Name:
+          <input
+            type="text"
+            name="name"
+            list="names"
+            placeholder="First name"
+          />
+        </label>
+
+        <datalist id="names">
+          <option value="Alice"></option>
+          <option value="Bob"></option>
+          <option value="Carol"></option>
+          <option value="David"></option>
+        </datalist>
+
+        <select name="role">
+          <option value="Role 1">Role 1</option>
+          <option value="Role 2">Role 2</option>
+          <option value="Role 3">Role 3</option>
+        </select>
+
+        <label>
+          Date
+          <input type="date" name="date" />
+        </label>
+
+        <button type="submit">Save</button>
+      </form>
+
+      <form method="post" name="domain">
+        <fieldset>
+          <legend>Idea domain:</legend>
+          <label><input type="checkbox" value="Debugging" /> Debugging</label>
+          <label><input type="checkbox" value="Planning" /> Planning</label>
+        </fieldset>
+      </form>
+
+      <form method="post" name="idea">
+        <fieldset>
+          <legend>
+            Is the idea related to a <em>Current</em> or <em>New</em> task?
+          </legend>
+          <label><input type="radio" name="radio" /> Current</label>
+          <label><input type="radio" name="radio" /> New</label>
+
+          <label>Idea:</label>
+          <br />
+          <textarea name="textarea" rows="4" cols="40"></textarea>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+
+      <details>
+        <summary>Click to expand</summary>
+        <p>Below are example media files for the meeting notes.</p>
+      </details>
+
+      <h4>Rick Roll Guy</h4>
+      <img src="media/rick_roll_img.jpg" alt="Rick Roll guy" />
+
+      <h4>Meeting Audio</h4>
+      <audio controls src="media/rick_roll_audio.mp3">
+        Your browser does not support audio.
+      </audio>
+
+      <h4>Meeting Video</h4>
+      <video controls src="media/rick_roll_video.mp4" width="320" height="240">
+        Your browser does not support video.
+      </video>
+    </section>
+
+    <footer>
+      <p>This website is for class example purposes only.</p>
+    </footer>
+  </body>
+</html>
